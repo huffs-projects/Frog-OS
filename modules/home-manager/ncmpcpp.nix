@@ -1,0 +1,10 @@
+{ ... }:
+{
+  programs.ncmpcpp = {
+    enable = true;
+    settings = {
+      mpd_host = "127.0.0.1";
+      mpd_port = "6600";
+    };
+  };
+}
